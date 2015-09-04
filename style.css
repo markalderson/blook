@@ -1,0 +1,20 @@
+#my_content {
+	text-align: justify;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+[msl-blook-chapter] > * {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+[msl-blook] > *:nth-child(odd) {
+	background: rgb(27, 188, 155);
+}
+
+[msl-blook] > *:nth-child(even) {
+	background: rgb(75, 191, 195);
+}
